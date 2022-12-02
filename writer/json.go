@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"terraform-plan-summary/terraform_state"
-	"terraform-plan-summary/tree"
+	"github.com/triarius/tf-summarize/terraform_state"
+	"github.com/triarius/tf-summarize/tree"
 
 	"github.com/nsf/jsondiff"
 )

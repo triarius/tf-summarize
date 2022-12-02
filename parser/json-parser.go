@@ -3,7 +3,7 @@ package parser
 import (
 	"encoding/json"
 	"fmt"
-	"terraform-plan-summary/terraform_state"
+	"github.com/triarius/tf-summarize/terraform_state"
 )
 
 type JsonParser struct {

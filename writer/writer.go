@@ -2,7 +2,7 @@ package writer
 
 import (
 	"io"
-	"terraform-plan-summary/terraform_state"
+	"github.com/triarius/tf-summarize/terraform_state"
 )
 
 type Writer interface {

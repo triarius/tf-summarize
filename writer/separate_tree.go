@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 	"strings"
-	"terraform-plan-summary/terraform_state"
+	"github.com/triarius/tf-summarize/terraform_state"
 )
 
 const SEPARATOR = "###################"
